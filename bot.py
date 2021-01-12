@@ -91,7 +91,7 @@ def obternovosanimes(tipo):
      soteste = soteste + f"\n\n*Atualizado com sucesso as:\n*{datetime.datetime.now().strftime('%H *horas %M minutos e %S segundos*')}"
      return soteste
 
-bot = amanobot.Bot('1461684030:AAF6yDq4Enr9qCOkAmIvjKgxt5C0LdWb4hQ')
+bot = amanobot.Bot('tokenaqui')
 
 def customname(name,tipo):
  if tipo == "jaassistido":
