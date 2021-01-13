@@ -14,6 +14,6 @@ _verifique se todos os modulos estao instalados corretamente e após isso substi
 ## Installation
 
 <b>a instalaçao do bot e bem simples apos ter o python3 instalado e ter aberto o terminal digite<b>
-git clone https://github.com/kim3040/amanimesbot/
+<p>it clone https://github.com/kim3040/amanimesbot/<p>
 apos ter clonado o repositorio entre dentro dele e digite
 pip3 install -r requirements.txt
