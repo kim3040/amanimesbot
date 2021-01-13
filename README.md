@@ -13,4 +13,5 @@ _verifique se todos os modulos estao instalados corretamente e após isso substi
 
 ## Installation
 
-> The installation instructions are low priority in the readme and should come at the bottom. The first part answers all their objections and now that they want to use it, show them how.
+<p>_a instalaçao do bot e bem simples apos ter o python3 instalado e ter aberto o terminal digite<p>
+*git clone https://github.com/kim3040/amanimesbot/*
