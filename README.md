@@ -6,8 +6,9 @@
 
 ## Avisos
 
-> Antes de executar o script verifique se a database animes.db esta na mesma pasta do script
-e verifique se todos os modulos estao instalados corretamente
+> <p>Antes de executar o script verifique se a database animes.db esta na mesma pasta do script<p>
+
+<p> verifique se todos os modulos estao instalados corretamente<p>
 
 ## Installation
 
