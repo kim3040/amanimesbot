@@ -2,11 +2,11 @@
 
 ## Introduction
 
-Bot feito com a intenção de tornar a pesquisa e download de animes muito mais simples
+Bot feito com a intenção de tornar a pesquisa e download de animes muito mais simples.
 
 ## Avisos
 
-> <p>Antes de executar o script verifique se a database animes.db esta na mesma pasta do script<p>
+<p>Antes de executar o script verifique se a database animes.db esta na mesma pasta do script<p>
 
 <p> verifique se todos os modulos estao instalados corretamente e após isso substitua a linha 94<p>
 <p>bot = amanobot.Bot('tokenaqui') coloque o seu token que você pegou no @BotFather
