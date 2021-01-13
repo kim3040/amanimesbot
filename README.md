@@ -1,4 +1,4 @@
-Bot feito com a intençao de tornar mais facil a pesquisa e downloads de animes do site myanimesonline.
+<B>Bot feito com a intençao de tornar mais facil a pesquisa e downloads de animes do site myanimesonline.
 
 Substitua o token nesta linha:
 bot = amanobot.Bot('tokenaqui') 
