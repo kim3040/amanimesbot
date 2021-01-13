@@ -115,7 +115,7 @@ def callbacks(msg):
  id2 = msg["from"]["id"]
  if query_data == 'marcarassistido':
   if msg["from"]["id"] == msg["message"]["reply_to_message"]["from"]["id"]:
-   enviar = addaobanco(id2,anime,datetime.datetime.now().strftime("%d/%m/%y  %H:%M"),episodio)
+   enviar = addaobanco(id2,anime,datetime.datetime.now().strftime("%d/%m/%y  %H:%M:%S"),episodio)
    bot.editMessageReplyMarkup((id,msg['message']['message_id']),reply_markup=customname(episodio,"remover"))
    bot.answerCallbackQuery(query_id, text='Adicionado a lista de assistidos')
   else:
