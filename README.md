@@ -4,9 +4,10 @@
 
 > Bot feito com a intenção de tornar a pesquisa e download de animes muito mais simples
 
-## Code Samples
+## Avisos
 
-> You've gotten their attention in the 
+> Antes de executar o script verifique se a database animes.db esta na mesma pasta do script
+e verifique se todos os modulos estao instalados corretamente
 
 ## Installation
 
