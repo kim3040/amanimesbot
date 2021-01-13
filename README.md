@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Bot feito com a intenção de tornar a pesquisa e download de animes muito mais simples.
+_Bot feito com a intenção de tornar a pesquisa e download de animes muito mais simples._
 
 ## Avisos
 
