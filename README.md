@@ -1,4 +1,4 @@
-# AMANIMESBOT
+# amanimesbot
 
 <B>Bot feito com a intençao de tornar mais facil a pesquisa e downloads<b> de animes do site myanimesonline.
 
