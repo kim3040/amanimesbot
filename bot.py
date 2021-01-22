@@ -91,7 +91,7 @@ def obternovosanimes(tipo):
      soteste = soteste + f"\n\n*Atualizado com sucesso as:\n*{datetime.datetime.now().strftime('%H *horas %M minutos e %S segundos*')}"
      return soteste
 
-bot = amanobot.Bot('tokenaqui')
+bot = amanobot.Bot('TOKENAQUI')
 
 def customname(name,tipo):
  if tipo == "jaassistido":
@@ -147,7 +147,7 @@ def getanimes(url):
   animehtml = requests.get(url)
   regex = re.findall("https://api.animesgratisbr.com/video/\d[0-9]*",animehtml.text)
   if len(regex) == 1:
-   a = requests.head(regex[0],stream=True).headers
+   a = requests.head(regex[0],stream=True,headers = {"User-Agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"}).headers
    if a['Content-Type'] == "video/mp4":
     return f"[Assista/Baixe Aqui]({a['Location']})"
    else:
@@ -161,7 +161,12 @@ def getanimes(url):
     if len(novoregex) == 1:
      return f"""[Assista/Baixe Aqui]({novoregex[0].replace('"','')}"""
     else:
-     return "NAO ENCONTRADO"
+     novoregex = re.findall("https://api.animesgratisbr.com/video/\d*", animehtml.text)
+     if len(novoregex) >= 1:
+      return f"""[Assista/Baixe Aqui]({novoregex[0].replace('"','')}"""
+     else:
+      return "NAO ENCONTRADO"
+     	
  except:
   pass
  
@@ -182,6 +187,7 @@ def pesquisa(anime):
 
 def on_inline_query(msg):
     query_id, from_id, query_string = amanobot.glance(msg, flavor='inline_query')
+    print("usando inline "+str(from_id))
     resultados = pesquisa(msg["query"])
     articles = [InlineQueryResultArticle(
                     id='abcd',
